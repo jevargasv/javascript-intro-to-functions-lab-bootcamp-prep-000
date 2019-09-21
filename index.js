@@ -1,5 +1,6 @@
 function whisper(string) {
-  return string.toLowerCase()
+  var lowercase = 'hello!'
+  return string.lowercase.toLowerCase()
 }
 
 function logShout(string) {
