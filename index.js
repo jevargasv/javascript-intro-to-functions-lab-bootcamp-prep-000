@@ -30,6 +30,6 @@ function sayHiToGrandma(string) {
   lowercase.toLowerCase() === lowercase // true
   
   if uppercase {
-    return string.toUpperCase
+    return string.toUpperCase()
   }
 }
