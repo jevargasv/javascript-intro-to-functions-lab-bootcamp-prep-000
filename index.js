@@ -15,4 +15,3 @@ function logShout(string) {
   uppercase.toUpperCase() === uppercase // true
   return string.toUpperCase()
 }
-console.log(logShout)
