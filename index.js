@@ -4,10 +4,10 @@ function whisper(string) {
   return string.lowercase.toLowerCase()
 }
 
-function logShout(string) {
+function whisper(string) {
   var lowercase = 'HELLO!'
-  uppercase.toUpperCase() === uppercase // true
-  return string.uppercase.toUpperCase()
+  lowercase.toLowerCase() === lowercase // true
+  return string.lowercase.toLowerCase()
 }
 console.log(logShout)
 
