@@ -29,10 +29,15 @@ function sayHiToGrandma(string) {
   var uppercase = 'YES INDEED!'
   uppercase.toUpperCase() === uppercase // true
   
+  string = "I love you, Grandma."
+  
   if (lowercase) {
     return string.toLowerCase()
   }
   else if (uppercase) {
     return string.toUpperCase()
+  }
+  else if (string) {
+    return "I love you, too."
   }
 } 
