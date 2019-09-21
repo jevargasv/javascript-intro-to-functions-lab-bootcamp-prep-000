@@ -1,12 +1,12 @@
 function shout(string) {
   var uppercase = 'HELLO!'
   uppercase.toUpperCase() === uppercase // true
-  return string.uppercase.toUpperCase()
+  return string.toUpperCase()
 }
 
 function whisper(string) {
-  var lowercase = 'hello'
+  var lowercase = 'hello!'
   lowercase.toLowerCase() === lowercase // true
-  return string.lowercase.toLowerCase()
+  return string.toLowerCase()
 }
 
