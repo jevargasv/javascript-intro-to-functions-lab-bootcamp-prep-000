@@ -23,7 +23,8 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  that given an integer n 1 ≤ n ≤ 100 returns an array containing n unique integers that sum up to 0
+  var lowercase = "i can't hear you!"
+  lowercase.toLowerCase() === lowercase // true
   
   var uppercase = 'YES INDEED!'
   uppercase.toUpperCase() === uppercase // true
